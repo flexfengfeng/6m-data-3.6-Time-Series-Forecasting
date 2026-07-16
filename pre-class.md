@@ -7,7 +7,7 @@ This is the simplest version of "show up prepared": watch a short intro, run one
 | Step | Time | What you do |
 |---|---|---|
 | **0. Watch** | ~5 min  | Watch the [lesson intro video](https://youtu.be/k2D5T-U6BKw) |
-| **1. Try it** | ~20 min | Open and run `notebooks/01_monday_morning.ipynb` |
+| **1. Try it** | ~20 min | Open and run `notebooks/01_morning_briefing.ipynb` |
 | **2. Reflect** | ~5 min  | Three short questions below |
 
 ---
@@ -16,7 +16,7 @@ This is the simplest version of "show up prepared": watch a short intro, run one
 
 ▶️ **[L06 Intro — Time Series Forecasting](https://youtu.be/k2D5T-U6BKw)**
 
-A short orientation to the week: why time-ordered data breaks the assumptions of L03–L05, and what Sarah is about to build for Marcus's Q4 forecast. Watch it before opening the notebook.
+A short orientation to the day: why time-ordered data breaks the assumptions of L03–L05, and what Sarah is about to build for Marcus's Q4 forecast. Watch it before opening the notebook.
 
 🕹️ **After the video:** open the [interactive key-concepts page](https://su-ntu-ctp.github.io/6m-data-3.6-Time-Series-Forecasting/) and play with it for 10–15 minutes. Drag the sliders, click the buttons — you can't break anything. Arriving in class having *seen* these ideas move makes the session far easier.
 
@@ -24,7 +24,7 @@ A short orientation to the week: why time-ordered data breaks the assumptions of
 
 ## Step 1 — Try it (~20 min)
 
-Open **`notebooks/01_monday_morning.ipynb`** in VS Code with the `dsai-m3` kernel. Run every cell top to bottom. Read the markdown between cells. Don't skip any cell.
+Open **`notebooks/01_morning_briefing.ipynb`** in VS Code with the `dsai-m3` kernel. Run every cell top to bottom. Read the markdown between cells. Don't skip any cell.
 
 Marcus needs a Q4 holiday revenue forecast for the board. The notebook hands Sarah two years of daily revenue. Before any model, she looks: a quick eyeball forecast, the full 2-year plot (upward trend + a Nov–Dec holiday spike), a 2-month zoom (weekends beat weekdays — the weekly cycle), and a 2024-vs-2025 overlay showing the annual pattern repeats. In class you'll separate those patterns (decomposition), then forecast them with classical methods and ML.
 

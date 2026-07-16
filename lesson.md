@@ -1,7 +1,7 @@
 # Lesson — L06 Time Series Forecasting
 
-> **Chapter 6 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Week 7.*
-> Marcus's brief from end-of-L05: *"Sales are seasonal. Can you forecast next quarter's revenue?"* Sarah opens `northstar_daily_revenue.csv` — 2 years of daily revenue, 731 rows. By Friday she has to show a 90-day forecast with honest error bars and a recommendation on which method to put into production.
+> **Chapter 6 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Day 7.*
+> Marcus's brief from end-of-L05: *"Sales are seasonal. Can you forecast next quarter's revenue?"* Sarah opens `northstar_daily_revenue.csv` — 2 years of daily revenue, 731 rows. By the end of the day she has to show a 90-day forecast with honest error bars and a recommendation on which method to put into production.
 
 This document is a **short reference** — the lesson itself is taught in the notebooks. Read it for orientation before class, then come back to it for the takeaways, the forecast-honesty checklist, the review questions, and the course map.
 
@@ -11,7 +11,7 @@ This document is a **short reference** — the lesson itself is taught in the no
 
 | Stage | Where to go |
 |---|---|
-| **Pre-class** | `pre-class.md` + `notebooks/01_monday_morning.ipynb` |
+| **Pre-class** | `pre-class.md` + `notebooks/01_morning_briefing.ipynb` |
 | **In-class — Part 1: STL Decomposition** | `notebooks/02_decomposition.ipynb` |
 | **In-class — Part 2: Classical Forecasting (Naive · ETS)** | `notebooks/03_classical_forecasting.ipynb` |
 | **In-class — Part 3: ML Forecasting (Lag features + GB)** | `notebooks/04_ml_forecasting.ipynb` |
@@ -24,7 +24,7 @@ The notebooks are the spine. Run them in order. Come back here for the consolida
 
 ## Overview
 
-Every supervised lesson before L06 assumed rows were independent — you could shuffle them, k-fold cross-validate, and the order didn't matter. Sarah's daily revenue file breaks that assumption: today's number depends on yesterday's, on the same day last week, and on the same day last year. By Friday she will hold three new tools: **STL decomposition** (to separate trend, seasonality, and noise), **classical forecasting with ETS/Holt-Winters** (the pragmatic baseline every team should run first), and **ML forecasting with lag features** (the modern industry default when you have exogenous signals or multiple seasonalities). Every future-facing number she ever ships — revenue forecasts, demand plans, capacity decisions — passes through these four ideas.
+Every supervised lesson before L06 assumed rows were independent — you could shuffle them, k-fold cross-validate, and the order didn't matter. Sarah's daily revenue file breaks that assumption: today's number depends on yesterday's, on the same day last week, and on the same day last year. By the end of the day she will hold three new tools: **STL decomposition** (to separate trend, seasonality, and noise), **classical forecasting with ETS/Holt-Winters** (the pragmatic baseline every team should run first), and **ML forecasting with lag features** (the modern industry default when you have exogenous signals or multiple seasonalities). Every future-facing number she ever ships — revenue forecasts, demand plans, capacity decisions — passes through these four ideas.
 
 ---
 
@@ -140,6 +140,6 @@ L06 is the toolkit for any number that points forward in time — forecasts, pla
 
 ---
 
-> *"Great. Now — what if we want to predict whether a customer who STARTED shopping will COMPLETE checkout? Like, in real time as they shop?"* — Marcus, after Sarah's Friday forecast presentation.
+> *"Great. Now — what if we want to predict whether a customer who STARTED shopping will COMPLETE checkout? Like, in real time as they shop?"* — Marcus, after Sarah's end-of-day forecast presentation.
 >
 > That question — *prediction from sequential customer behaviour using neural networks* — is the engine of **L07 (Neural Networks & Deep Learning).**

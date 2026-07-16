@@ -1,6 +1,6 @@
 # L06 — Time Series Forecasting
 
-> *Sarah Chen's sixth week at NorthStar Retail. Marcus's question from L05: "Sales are seasonal. Can you forecast next quarter's revenue?" This week she does.*
+> *Sarah Chen's seventh day at NorthStar Retail. Marcus's question from L05: "Sales are seasonal. Can you forecast next quarter's revenue?" Today she does.*
 > By the end of this lesson you will know how to decompose a time series into trend + seasonality + residual, build baseline forecasts with ETS, train a machine-learning forecaster with lag features, and evaluate any of them honestly with the right error metrics.
 
 ---
@@ -54,7 +54,7 @@
 
 **Start here →** [**pre-class.md**](./pre-class.md)
 
-You'll run `01_monday_morning.ipynb` to see NorthStar's daily revenue data + watch a video on STL decomposition + try three mini-exercises. After the video, explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.6-Time-Series-Forecasting/) (GitHub Pages).
+You'll run `01_morning_briefing.ipynb` to see NorthStar's daily revenue data + watch a video on STL decomposition + try three mini-exercises. After the video, explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.6-Time-Series-Forecasting/) (GitHub Pages).
 
 ---
 
@@ -68,9 +68,9 @@ You'll run `01_monday_morning.ipynb` to see NorthStar's daily revenue data + wat
 
 | # | Notebook | Sarah's day | What you explore |
 |---|---|---|---|
-| 02 | [`02_decomposition.ipynb`](./notebooks/02_decomposition.ipynb) | Tuesday | STL decomposition · trend · seasonality · residual |
-| 03 | [`03_classical_forecasting.ipynb`](./notebooks/03_classical_forecasting.ipynb) | Wednesday | Naive · Seasonal Naive · Exponential Smoothing (ETS) · MAE / RMSE / MAPE |
-| 04 | [`04_ml_forecasting.ipynb`](./notebooks/04_ml_forecasting.ipynb) | Thursday | Lag features · HistGradientBoosting regressor · model comparison · 90-day forecast |
+| 02 | [`02_decomposition.ipynb`](./notebooks/02_decomposition.ipynb) | Late morning | STL decomposition · trend · seasonality · residual |
+| 03 | [`03_classical_forecasting.ipynb`](./notebooks/03_classical_forecasting.ipynb) | Early afternoon | Naive · Seasonal Naive · Exponential Smoothing (ETS) · MAE / RMSE / MAPE |
+| 04 | [`04_ml_forecasting.ipynb`](./notebooks/04_ml_forecasting.ipynb) | Late afternoon | Lag features · HistGradientBoosting regressor · model comparison · 90-day forecast |
 
 ---
 
@@ -117,7 +117,7 @@ docs/
 notebooks/
   data/
     northstar_daily_revenue.csv        ← 731 days (2024-01-01 to 2025-12-31)
-  01_monday_morning.ipynb              ← Pre-class hook: see the seasonality
+  01_morning_briefing.ipynb              ← Pre-class hook: see the seasonality
   02_decomposition.ipynb               ← Part 1: STL decomposition
   03_classical_forecasting.ipynb       ← Part 2: Naive · Seasonal Naive · ETS
   04_ml_forecasting.ipynb              ← Part 3: Lag features + GB + comparison
