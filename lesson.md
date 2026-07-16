@@ -1,6 +1,6 @@
 # Lesson — L06 Time Series Forecasting
 
-> **Chapter 6 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Week 7.*
+> **Chapter 6 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Day 7.*
 > Marcus's brief from end-of-L05: *"Sales are seasonal. Can you forecast next quarter's revenue?"* Sarah opens `northstar_daily_revenue.csv` — 2 years of daily revenue, 731 rows. By Friday she has to show a 90-day forecast with honest error bars and a recommendation on which method to put into production.
 
 This document is a **short reference** — the lesson itself is taught in the notebooks. Read it for orientation before class, then come back to it for the takeaways, the forecast-honesty checklist, the review questions, and the course map.

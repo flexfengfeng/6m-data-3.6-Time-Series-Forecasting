@@ -1,6 +1,6 @@
 # L06 — Time Series Forecasting
 
-> *Sarah Chen's sixth week at NorthStar Retail. Marcus's question from L05: "Sales are seasonal. Can you forecast next quarter's revenue?" This week she does.*
+> *Sarah Chen's seventh day at NorthStar Retail. Marcus's question from L05: "Sales are seasonal. Can you forecast next quarter's revenue?" Today she does.*
 > By the end of this lesson you will know how to decompose a time series into trend + seasonality + residual, build baseline forecasts with ETS, train a machine-learning forecaster with lag features, and evaluate any of them honestly with the right error metrics.
 
 ---
